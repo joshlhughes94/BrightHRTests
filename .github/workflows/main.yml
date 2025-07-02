@@ -27,8 +27,8 @@ jobs:
       - name: Build solution
         run: dotnet build BrightHRUITests.sln --configuration Debug --no-restore
 
-      - name: List build output folder (debugging)
-        run: ls -la BrightHRUITests/BrightHRUITests/bin/Debug/net8.0/
+      # - name: List build output folder (debugging)
+      #   run: ls -la BrightHRUITests/BrightHRUITests/bin/Debug/net8.0/
 
       - name: Install Playwright Browsers
         shell: pwsh
