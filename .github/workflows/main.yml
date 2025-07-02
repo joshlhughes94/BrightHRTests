@@ -27,13 +27,6 @@ jobs:
       - name: Build solution
         run: dotnet build BrightHRUITests.sln --configuration Debug --no-restore
 
-      # - name: List build output folder (debugging)
-      #   run: ls -la BrightHRUITests/BrightHRUITests/bin/Debug/net8.0/
-
-      - name: Install Playwright Browsers
-        shell: pwsh
-        run: ./BrightHRUITests/BrightHRUITests/bin/Debug/net8.0/playwright.ps1 install
-
       - name: Install Playwright Linux dependencies
         run: |
           sudo apt-get update
@@ -55,6 +48,13 @@ jobs:
             libgles2-mesa-dev \
             gstreamer1.0-libav \
             libx264-163 || true
+
+      - name: List build output folder (debugging)
+        run: ls -la BrightHRUITests/bin/Debug/net8.0/
+
+      - name: Install Playwright Browsers
+        shell: pwsh
+        run: BrightHRUITests/bin/Debug/net8.0/playwright.ps1 install
 
       - name: Run tests
         run: dotnet test BrightHRUITests.sln --configuration Debug --no-build --verbosity normal
