@@ -1,4 +1,4 @@
-name: Run Tests
+name: .NET Test Pipeline
 
 on:
   push:
@@ -7,16 +7,23 @@ on:
     branches: [ main ]
 
 jobs:
-  test:
+  build-and-test:
     runs-on: ubuntu-latest
 
     steps:
-    - uses: actions/checkout@v3
+    - name: Checkout code
+      uses: actions/checkout@v3
 
-    - uses: actions/setup-node@v4
+    - name: Setup .NET
+      uses: actions/setup-dotnet@v4
       with:
-        node-version: 20
+        dotnet-version: '8.0.x'  # Or 6.0.x, 7.0.x depending on your project
 
-    - run: npm ci
-    - run: npx playwright install --with-deps
-    - run: npx playwright test
+    - name: Restore dependencies
+      run: dotnet restore
+
+    - name: Build
+      run: dotnet build --configuration Release --no-restore
+
+    - name: Run tests
+      run: dotnet test --no-build --verbosity normal
