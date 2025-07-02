@@ -4,6 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using Autofac;
+using BrightHRUITests.Models;
 using BrightHRUITests.Services;
 using BrightHRUITests.Settings;
 using Microsoft.Extensions.Configuration;
@@ -37,7 +38,7 @@ namespace BrightHRUITests
             var env = Environment.GetEnvironmentVariable("ASPNETCORE_ENVIRONMENT") ?? "Test";
             Console.WriteLine($"Current Enviornment: {env}");
             var configuration = new ConfigurationBuilder()
-                .AddJsonFile($"Settings/AppSettings.{env}.json", false, true)
+                .AddJsonFile($"Settings/AppSettings.QA.json", false, true)
                 .Build();
 
             builder.RegisterInstance(configuration)
@@ -71,7 +72,7 @@ namespace BrightHRUITests
 
         private static void RegisterPages(this ContainerBuilder builder)
         {
-            
+            builder.RegisterType<LoginPage>().AsSelf().InstancePerDependency();
         }
 
         private static void RegisterPageHandler(this ContainerBuilder builder)

@@ -7,28 +7,28 @@
       "RelativeMoniker": "D:0:0:{078CAC15-4E9D-4C73-969B-A3825150CA3F}|BrightHRUITests\\BrightHRUITests.csproj|solutionrelative:brighthruitests\\stepdefinitions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{078CAC15-4E9D-4C73-969B-A3825150CA3F}|BrightHRUITests\\BrightHRUITests.csproj|c:\\users\\joshl\\source\\repos\\brighthruitests\\brighthruitests\\features\\feature1.feature||{8B382828-6202-11D1-8870-0000F87579D2}",
-      "RelativeMoniker": "D:0:0:{078CAC15-4E9D-4C73-969B-A3825150CA3F}|BrightHRUITests\\BrightHRUITests.csproj|solutionrelative:brighthruitests\\features\\feature1.feature||{8B382828-6202-11D1-8870-0000F87579D2}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{078CAC15-4E9D-4C73-969B-A3825150CA3F}|BrightHRUITests\\BrightHRUITests.csproj|c:\\users\\joshl\\source\\repos\\brighthruitests\\brighthruitests\\teststartup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{078CAC15-4E9D-4C73-969B-A3825150CA3F}|BrightHRUITests\\BrightHRUITests.csproj|solutionrelative:brighthruitests\\teststartup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{078CAC15-4E9D-4C73-969B-A3825150CA3F}|BrightHRUITests\\BrightHRUITests.csproj|c:\\users\\joshl\\source\\repos\\brighthruitests\\brighthruitests\\services\\pageservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{078CAC15-4E9D-4C73-969B-A3825150CA3F}|BrightHRUITests\\BrightHRUITests.csproj|solutionrelative:brighthruitests\\services\\pageservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{078CAC15-4E9D-4C73-969B-A3825150CA3F}|BrightHRUITests\\BrightHRUITests.csproj|c:\\users\\joshl\\source\\repos\\brighthruitests\\brighthruitests\\settings\\appsettings.qa.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{078CAC15-4E9D-4C73-969B-A3825150CA3F}|BrightHRUITests\\BrightHRUITests.csproj|solutionrelative:brighthruitests\\settings\\appsettings.qa.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{078CAC15-4E9D-4C73-969B-A3825150CA3F}|BrightHRUITests\\BrightHRUITests.csproj|c:\\users\\joshl\\source\\repos\\brighthruitests\\brighthruitests\\services\\pagedependencyservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{078CAC15-4E9D-4C73-969B-A3825150CA3F}|BrightHRUITests\\BrightHRUITests.csproj|solutionrelative:brighthruitests\\services\\pagedependencyservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{078CAC15-4E9D-4C73-969B-A3825150CA3F}|BrightHRUITests\\BrightHRUITests.csproj|c:\\users\\joshl\\source\\repos\\brighthruitests\\brighthruitests\\settings\\appsettings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{078CAC15-4E9D-4C73-969B-A3825150CA3F}|BrightHRUITests\\BrightHRUITests.csproj|solutionrelative:brighthruitests\\settings\\appsettings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{078CAC15-4E9D-4C73-969B-A3825150CA3F}|BrightHRUITests\\BrightHRUITests.csproj|c:\\users\\joshl\\source\\repos\\brighthruitests\\brighthruitests\\services\\pageservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{078CAC15-4E9D-4C73-969B-A3825150CA3F}|BrightHRUITests\\BrightHRUITests.csproj|solutionrelative:brighthruitests\\services\\pageservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{078CAC15-4E9D-4C73-969B-A3825150CA3F}|BrightHRUITests\\BrightHRUITests.csproj|c:\\users\\joshl\\source\\repos\\brighthruitests\\brighthruitests\\models\\loginpage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{078CAC15-4E9D-4C73-969B-A3825150CA3F}|BrightHRUITests\\BrightHRUITests.csproj|solutionrelative:brighthruitests\\models\\loginpage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{078CAC15-4E9D-4C73-969B-A3825150CA3F}|BrightHRUITests\\BrightHRUITests.csproj|c:\\users\\joshl\\source\\repos\\brighthruitests\\brighthruitests\\features\\feature1.feature||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{078CAC15-4E9D-4C73-969B-A3825150CA3F}|BrightHRUITests\\BrightHRUITests.csproj|solutionrelative:brighthruitests\\features\\feature1.feature||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{078CAC15-4E9D-4C73-969B-A3825150CA3F}|BrightHRUITests\\BrightHRUITests.csproj|c:\\users\\joshl\\source\\repos\\brighthruitests\\brighthruitests\\settings\\appsettings.qa.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{078CAC15-4E9D-4C73-969B-A3825150CA3F}|BrightHRUITests\\BrightHRUITests.csproj|solutionrelative:brighthruitests\\settings\\appsettings.qa.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     }
   ],
   "DocumentGroupContainers": [
@@ -38,11 +38,46 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 0,
           "Children": [
             {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "StepDefinitions.cs",
+              "DocumentMoniker": "C:\\Users\\joshl\\source\\repos\\BrightHRUITests\\BrightHRUITests\\StepDefinitions.cs",
+              "RelativeDocumentMoniker": "BrightHRUITests\\StepDefinitions.cs",
+              "ToolTip": "C:\\Users\\joshl\\source\\repos\\BrightHRUITests\\BrightHRUITests\\StepDefinitions.cs",
+              "RelativeToolTip": "BrightHRUITests\\StepDefinitions.cs",
+              "ViewState": "AgIAABEAAAAAAAAAAAAQwBwAAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-02T18:45:24.46Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "TestStartUp.cs",
+              "DocumentMoniker": "C:\\Users\\joshl\\source\\repos\\BrightHRUITests\\BrightHRUITests\\TestStartUp.cs",
+              "RelativeDocumentMoniker": "BrightHRUITests\\TestStartUp.cs",
+              "ToolTip": "C:\\Users\\joshl\\source\\repos\\BrightHRUITests\\BrightHRUITests\\TestStartUp.cs",
+              "RelativeToolTip": "BrightHRUITests\\TestStartUp.cs",
+              "ViewState": "AgIAADMAAAAAAAAAAAAIwEoAAABPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-02T18:40:48.949Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "PageDependencyService.cs",
+              "DocumentMoniker": "C:\\Users\\joshl\\source\\repos\\BrightHRUITests\\BrightHRUITests\\Services\\PageDependencyService.cs",
+              "RelativeDocumentMoniker": "BrightHRUITests\\Services\\PageDependencyService.cs",
+              "ToolTip": "C:\\Users\\joshl\\source\\repos\\BrightHRUITests\\BrightHRUITests\\Services\\PageDependencyService.cs",
+              "RelativeToolTip": "BrightHRUITests\\Services\\PageDependencyService.cs",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAQwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-02T18:42:01.729Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -52,87 +87,48 @@
               "RelativeDocumentMoniker": "BrightHRUITests\\Services\\PageService.cs",
               "ToolTip": "C:\\Users\\joshl\\source\\repos\\BrightHRUITests\\BrightHRUITests\\Services\\PageService.cs",
               "RelativeToolTip": "BrightHRUITests\\Services\\PageService.cs",
-              "ViewState": "AgIAAAIAAAAAAAAAAAAAABIAAAANAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-02T14:28:40.033Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "TestStartUp.cs",
-              "DocumentMoniker": "C:\\Users\\joshl\\source\\repos\\BrightHRUITests\\BrightHRUITests\\TestStartUp.cs",
-              "RelativeDocumentMoniker": "BrightHRUITests\\TestStartUp.cs",
-              "ToolTip": "C:\\Users\\joshl\\source\\repos\\BrightHRUITests\\BrightHRUITests\\TestStartUp.cs",
-              "RelativeToolTip": "BrightHRUITests\\TestStartUp.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEkAAAAMAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-02T14:23:46.152Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Feature1.feature",
-              "DocumentMoniker": "C:\\Users\\joshl\\source\\repos\\BrightHRUITests\\BrightHRUITests\\Features\\Feature1.feature",
-              "RelativeDocumentMoniker": "BrightHRUITests\\Features\\Feature1.feature",
-              "ToolTip": "C:\\Users\\joshl\\source\\repos\\BrightHRUITests\\BrightHRUITests\\Features\\Feature1.feature",
-              "RelativeToolTip": "BrightHRUITests\\Features\\Feature1.feature",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAUAAAAAAAAAA==",
-              "Icon": "00000000-0000-0000-0000-000000000000.000000|iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAI8SURBVDhPddBPiNR1GMfx1/c36\u002Bx/29Ylf7NUrriiKIhhHYKgdMMgukXNEBSCFEInb3WKghYCIRBBOnjpoLOHBMsOQaBQQhc71EFrUwmUmdm1Nqddnd119tth9zc7s9hz\u002B36ez\u002Bf9PN8neFSdSwcFe7AdDwW3NF33VnWhwxdjDJ0CptIjOI496FrrLOFXTCpVz7dH1gHltAcn8D50J3mLK0uSkOhO8h40G5nzAyGcUKw0IWkBeA/HYO9ju/w4ccHezbu8M/aGy4fOC\u002BuzPhLjy9ljFVBOh/AJcsP5IfXledv6n/L8yLNeLUy4//CBKGaZXnzqm9Gg9YVyWkR5W/\u002BTLh38yve1H3z\u002B2xf\u002BXvrHcH7IX4tzZhbvZgBr19qpVL2RfWE/3LlfcebmWV0hp9aYVWvMulaf3hi2Nni/tht0QTOu\u002BHPhtmv1aY3mYss9PjBmct\u002BHDqcvtTT0awPchPHB7U4dmHRo6wtGurfYkn9coecJuZDzSnrQ6QOftQNua91gKt0h\u002Bj0IyY6BMfeW665MfO3k9Bm7N4/bPTju9StH9eX6VBo1aBC3KtXqqxsUqzfwZRT9MX/L4KYBISR\u002BnvvFT3evGu1NNeNKFoazSrX6\u002BgZQTkdxEc/AcH7I3NI9SUj0dfX6d3k\u002Bc84I8UXF2vVOAJxLRwSn8Rp6OnqrtYCiUvXbTOgEwFRhk\u002Bg54jG83dap4l2l6sU27RGArKYKh8X4He7gAuFjpcrMRtv/A8qFp4n7cFXSrHhzdqMD/AfXwLdp/4rZ5QAAAABJRU5ErkJggg==",
-              "WhenOpened": "2025-07-02T14:22:23.858Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "StepDefinitions.cs",
-              "DocumentMoniker": "C:\\Users\\joshl\\source\\repos\\BrightHRUITests\\BrightHRUITests\\StepDefinitions.cs",
-              "RelativeDocumentMoniker": "BrightHRUITests\\StepDefinitions.cs",
-              "ToolTip": "C:\\Users\\joshl\\source\\repos\\BrightHRUITests\\BrightHRUITests\\StepDefinitions.cs*",
-              "RelativeToolTip": "BrightHRUITests\\StepDefinitions.cs*",
-              "ViewState": "AgIAABgAAAAAAAAAAAAcwCkAAABIAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-02T14:23:34.35Z",
+              "WhenOpened": "2025-07-02T18:42:00.349Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 4,
-              "Title": "AppSettings.QA.json",
-              "DocumentMoniker": "C:\\Users\\joshl\\source\\repos\\BrightHRUITests\\BrightHRUITests\\Settings\\AppSettings.QA.json",
-              "RelativeDocumentMoniker": "BrightHRUITests\\Settings\\AppSettings.QA.json",
-              "ToolTip": "C:\\Users\\joshl\\source\\repos\\BrightHRUITests\\BrightHRUITests\\Settings\\AppSettings.QA.json",
-              "RelativeToolTip": "BrightHRUITests\\Settings\\AppSettings.QA.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAEAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-07-02T14:29:40.125Z",
+              "Title": "LoginPage.cs",
+              "DocumentMoniker": "C:\\Users\\joshl\\source\\repos\\BrightHRUITests\\BrightHRUITests\\Models\\LoginPage.cs",
+              "RelativeDocumentMoniker": "BrightHRUITests\\Models\\LoginPage.cs",
+              "ToolTip": "C:\\Users\\joshl\\source\\repos\\BrightHRUITests\\BrightHRUITests\\Models\\LoginPage.cs",
+              "RelativeToolTip": "BrightHRUITests\\Models\\LoginPage.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-02T18:41:56.282Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 5,
-              "Title": "PageDependencyService.cs",
-              "DocumentMoniker": "C:\\Users\\joshl\\source\\repos\\BrightHRUITests\\BrightHRUITests\\Services\\PageDependencyService.cs",
-              "RelativeDocumentMoniker": "BrightHRUITests\\Services\\PageDependencyService.cs",
-              "ToolTip": "C:\\Users\\joshl\\source\\repos\\BrightHRUITests\\BrightHRUITests\\Services\\PageDependencyService.cs",
-              "RelativeToolTip": "BrightHRUITests\\Services\\PageDependencyService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAC8AAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-02T14:25:08.627Z",
+              "Title": "Feature1.feature",
+              "DocumentMoniker": "C:\\Users\\joshl\\source\\repos\\BrightHRUITests\\BrightHRUITests\\Features\\Feature1.feature",
+              "RelativeDocumentMoniker": "BrightHRUITests\\Features\\Feature1.feature",
+              "ToolTip": "C:\\Users\\joshl\\source\\repos\\BrightHRUITests\\BrightHRUITests\\Features\\Feature1.feature",
+              "RelativeToolTip": "BrightHRUITests\\Features\\Feature1.feature",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAA==",
+              "Icon": "00000000-0000-0000-0000-000000000000.000000|iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAI8SURBVDhPddBPiNR1GMfx1/c36\u002Bx/29Ylf7NUrriiKIhhHYKgdMMgukXNEBSCFEInb3WKghYCIRBBOnjpoLOHBMsOQaBQQhc71EFrUwmUmdm1Nqddnd119tth9zc7s9hz\u002B36ez\u002Bf9PN8neFSdSwcFe7AdDwW3NF33VnWhwxdjDJ0CptIjOI496FrrLOFXTCpVz7dH1gHltAcn8D50J3mLK0uSkOhO8h40G5nzAyGcUKw0IWkBeA/HYO9ju/w4ccHezbu8M/aGy4fOC\u002BuzPhLjy9ljFVBOh/AJcsP5IfXledv6n/L8yLNeLUy4//CBKGaZXnzqm9Gg9YVyWkR5W/\u002BTLh38yve1H3z\u002B2xf\u002BXvrHcH7IX4tzZhbvZgBr19qpVL2RfWE/3LlfcebmWV0hp9aYVWvMulaf3hi2Nni/tht0QTOu\u002BHPhtmv1aY3mYss9PjBmct\u002BHDqcvtTT0awPchPHB7U4dmHRo6wtGurfYkn9coecJuZDzSnrQ6QOftQNua91gKt0h\u002Bj0IyY6BMfeW665MfO3k9Bm7N4/bPTju9StH9eX6VBo1aBC3KtXqqxsUqzfwZRT9MX/L4KYBISR\u002BnvvFT3evGu1NNeNKFoazSrX6\u002BgZQTkdxEc/AcH7I3NI9SUj0dfX6d3k\u002Bc84I8UXF2vVOAJxLRwSn8Rp6OnqrtYCiUvXbTOgEwFRhk\u002Bg54jG83dap4l2l6sU27RGArKYKh8X4He7gAuFjpcrMRtv/A8qFp4n7cFXSrHhzdqMD/AfXwLdp/4rZ5QAAAABJRU5ErkJggg==",
+              "WhenOpened": "2025-07-02T18:37:35.089Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 6,
-              "Title": "AppSettings.cs",
-              "DocumentMoniker": "C:\\Users\\joshl\\source\\repos\\BrightHRUITests\\BrightHRUITests\\Settings\\AppSettings.cs",
-              "RelativeDocumentMoniker": "BrightHRUITests\\Settings\\AppSettings.cs",
-              "ToolTip": "C:\\Users\\joshl\\source\\repos\\BrightHRUITests\\BrightHRUITests\\Settings\\AppSettings.cs",
-              "RelativeToolTip": "BrightHRUITests\\Settings\\AppSettings.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAFAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-02T14:26:50.679Z",
+              "Title": "AppSettings.QA.json",
+              "DocumentMoniker": "C:\\Users\\joshl\\source\\repos\\BrightHRUITests\\BrightHRUITests\\Settings\\AppSettings.QA.json",
+              "RelativeDocumentMoniker": "BrightHRUITests\\Settings\\AppSettings.QA.json",
+              "ToolTip": "C:\\Users\\joshl\\source\\repos\\BrightHRUITests\\BrightHRUITests\\Settings\\AppSettings.QA.json",
+              "RelativeToolTip": "BrightHRUITests\\Settings\\AppSettings.QA.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-07-02T18:39:26.459Z",
               "EditorCaption": ""
             },
             {
