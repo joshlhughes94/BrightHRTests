@@ -27,7 +27,7 @@ jobs:
       - name: Build solution
         run: dotnet build BrightHRUITests.sln --configuration Debug --no-restore
 
-      - name: Install Playwright dependencies
+      - name: Install Playwright Linux dependencies
         run: |
           sudo apt-get update
           sudo apt-get install -y \
@@ -39,6 +39,7 @@ jobs:
             libopus0 \
             libgstreamer-plugins-base1.0-0 \
             libgstreamer1.0-0 \
+            libgstreamer-plugins-bad1.0-0 \   # <--- this one is missing
             libflite1 \
             libavif16 \
             libharfbuzz-icu0 \
@@ -47,7 +48,7 @@ jobs:
             libmanette-0.2-0 \
             libgles2-mesa-dev \
             gstreamer1.0-libav \
-            libx264-dev || true
+            libx264-dev
 
 
       - name: List build output folder (debugging)
