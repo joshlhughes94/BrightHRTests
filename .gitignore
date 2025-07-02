@@ -1,0 +1,45 @@
+# Ignore Visual Studio temporary files, build results, and user-specific files
+
+## User-specific files
+*.rsuser
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+## Build results
+[Dd]ebug/
+[Rr]elease/
+x64/
+x86/
+build/
+bld/
+[Bb]in/
+[Oo]bj/
+
+## VS folder
+.vs/
+
+## Rider
+.idea/
+
+## Test results
+[Tt]est[Rr]esult*/
+*.trx
+*.vspscc
+
+## NuGet
+*.nupkg
+*.snupkg
+project.assets.json
+project.nuget.cache
+*.nuget.dgspec.json
+
+## Others
+*.cache
+*.log
+*.tlog
+*.pdb
+*.dbmdl
+
+# Don't track build outputs or IDE files

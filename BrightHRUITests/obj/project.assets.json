@@ -988,11 +988,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\joshl\\source\\repos\\PWUI\\BrightHRUITests\\BrightHRUITests\\BrightHRUITests.csproj",
+      "projectUniqueName": "C:\\Users\\joshl\\source\\repos\\BrightHRUITests\\BrightHRUITests\\BrightHRUITests.csproj",
       "projectName": "BrightHRUITests",
-      "projectPath": "C:\\Users\\joshl\\source\\repos\\PWUI\\BrightHRUITests\\BrightHRUITests\\BrightHRUITests.csproj",
+      "projectPath": "C:\\Users\\joshl\\source\\repos\\BrightHRUITests\\BrightHRUITests\\BrightHRUITests.csproj",
       "packagesPath": "C:\\Users\\joshl\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\joshl\\source\\repos\\PWUI\\BrightHRUITests\\BrightHRUITests\\obj\\",
+      "outputPath": "C:\\Users\\joshl\\source\\repos\\BrightHRUITests\\BrightHRUITests\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

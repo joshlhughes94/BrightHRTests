@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "TUMLUBZiPUU=",
+  "dgSpecHash": "JkpIPs3sJB4=",
   "success": true,
-  "projectFilePath": "C:\\Users\\joshl\\source\\repos\\PWUI\\BrightHRUITests\\BrightHRUITests\\BrightHRUITests.csproj",
+  "projectFilePath": "C:\\Users\\joshl\\source\\repos\\BrightHRUITests\\BrightHRUITests\\BrightHRUITests.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\joshl\\.nuget\\packages\\coverlet.collector\\6.0.0\\coverlet.collector.6.0.0.nupkg.sha512",
     "C:\\Users\\joshl\\.nuget\\packages\\microsoft.codecoverage\\17.8.0\\microsoft.codecoverage.17.8.0.nupkg.sha512",
