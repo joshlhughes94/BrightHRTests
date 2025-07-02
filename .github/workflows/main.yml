@@ -47,8 +47,7 @@ jobs:
             libhyphen0 \
             libmanette-0.2-0 \
             libgles2-mesa-dev \
-            gstreamer1.0-libav \
-            libx264-163
+            gstreamer1.0-libav
 
       - name: List build output folder (debugging)
         run: ls -la BrightHRUITests/bin/Debug/net8.0/
