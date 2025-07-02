@@ -12,10 +12,6 @@ jobs:
   build-and-test:
     runs-on: ubuntu-latest
 
-    defaults:
-      run:
-        working-directory: BrightHRUITests/BrightHRUITests
-
     steps:
       - name: Checkout code
         uses: actions/checkout@v3
@@ -26,18 +22,17 @@ jobs:
           dotnet-version: '8.0.x'
 
       - name: Restore dependencies
-        run: dotnet restore ../../BrightHRUITests.sln
+        run: dotnet restore BrightHRUITests.sln
 
       - name: Build solution
-        run: dotnet build ../../BrightHRUITests.sln --configuration Debug --no-restore
+        run: dotnet build BrightHRUITests.sln --configuration Debug --no-restore
 
-      - name: List build output folder
-        run: ls -la ./bin/Debug/net8.0/
+      - name: List build output folder (debugging)
+        run: ls -la BrightHRUITests/bin/Debug/net8.0/
 
       - name: Install Playwright Browsers
         shell: pwsh
-        run: ./bin/Debug/net8.0/playwright.ps1 install
+        run: BrightHRUITests/bin/Debug/net8.0/playwright.ps1 install
 
       - name: Run tests
-        run: dotnet test ../../BrightHRUITests.sln --configuration Debug --no-build --verbosity normal
-
+        run: dotnet test BrightHRUITests.sln --configuration Debug --no-build --verbosity normal
