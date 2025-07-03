@@ -73,6 +73,8 @@ namespace BrightHRUITests
         private static void RegisterPages(this ContainerBuilder builder)
         {
             builder.RegisterType<LoginPage>().AsSelf().InstancePerDependency();
+            builder.RegisterType<DashboardPage>().AsSelf().InstancePerDependency();
+            builder.RegisterType<EmployeesPages>().AsSelf().InstancePerDependency();
         }
 
         private static void RegisterPageHandler(this ContainerBuilder builder)

@@ -129,6 +129,30 @@ this.ScenarioInitialize(scenarioInfo);
 #line 5
  await testRunner.AndAsync("I have navigated to the BrightHR login page", ((string)(null)), ((global::Reqnroll.Table)(null)), "And ");
 #line hidden
+#line 6
+ await testRunner.WhenAsync("I enter valid login credentials", ((string)(null)), ((global::Reqnroll.Table)(null)), "When ");
+#line hidden
+#line 7
+ await testRunner.AndAsync("I have selected Employees from the menu", ((string)(null)), ((global::Reqnroll.Table)(null)), "And ");
+#line hidden
+#line 8
+ await testRunner.AndAsync("I have selected the Add Employee Button", ((string)(null)), ((global::Reqnroll.Table)(null)), "And ");
+#line hidden
+#line 9
+ await testRunner.WhenAsync("I have created a valid Employee", ((string)(null)), ((global::Reqnroll.Table)(null)), "When ");
+#line hidden
+#line 10
+ await testRunner.ThenAsync("I am displayed the employee added success message", ((string)(null)), ((global::Reqnroll.Table)(null)), "Then ");
+#line hidden
+#line 11
+ await testRunner.AndAsync("I select the add another employee button", ((string)(null)), ((global::Reqnroll.Table)(null)), "And ");
+#line hidden
+#line 12
+ await testRunner.AndAsync("I create a second employee", ((string)(null)), ((global::Reqnroll.Table)(null)), "And ");
+#line hidden
+#line 13
+ await testRunner.ThenAsync("I am displayed both employees in the employees list", ((string)(null)), ((global::Reqnroll.Table)(null)), "Then ");
+#line hidden
             }
             await this.ScenarioCleanupAsync();
         }
