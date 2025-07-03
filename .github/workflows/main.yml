@@ -2,28 +2,65 @@ name: .NET Test Pipeline
 
 on:
   push:
-    branches: [ main ]
+    branches:
+      - main
   pull_request:
-    branches: [ main ]
+    branches:
+      - main
 
 jobs:
   build-and-test:
     runs-on: ubuntu-latest
 
     steps:
-    - name: Checkout code
-      uses: actions/checkout@v3
+      - name: Checkout code
+        uses: actions/checkout@v3
 
-    - name: Setup .NET
-      uses: actions/setup-dotnet@v4
-      with:
-        dotnet-version: '8.0.x'  # Or 6.0.x, 7.0.x depending on your project
+      - name: Setup .NET SDK
+        uses: actions/setup-dotnet@v3
+        with:
+          dotnet-version: '8.0.x'
 
-    - name: Restore dependencies
-      run: dotnet restore
+      - name: Restore dependencies
+        run: dotnet restore BrightHRUITests.sln
 
-    - name: Build
-      run: dotnet build --configuration Release --no-restore
+      - name: Build solution
+        run: dotnet build BrightHRUITests.sln --configuration Debug --no-restore
 
-    - name: Run tests
-      run: dotnet test --no-build --verbosity normal
+      - name: Install Playwright Linux dependencies
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y \
+            libgtk-4-1 \
+            libgraphene-1.0-0 \
+            libwoff1 \
+            libvpx9 \
+            libevent-2.1-7 \
+            libopus0 \
+            libgstreamer-plugins-base1.0-0 \
+            libgstreamer1.0-0 \
+            libgstreamer-plugins-bad1.0-0 \
+            libflite1 \
+            libavif16 \
+            libharfbuzz-icu0 \
+            libsecret-1-0 \
+            libhyphen0 \
+            libmanette-0.2-0 \
+            libgles2-mesa-dev \
+            gstreamer1.0-libav
+
+      - name: List build output folder (debugging)
+        run: ls -la BrightHRUITests/bin/Debug/net8.0/
+
+      - name: Install Playwright Browsers
+        shell: pwsh
+        run: BrightHRUITests/bin/Debug/net8.0/playwright.ps1 install
+
+      - name: Run tests
+        run: dotnet test BrightHRUITests.sln --configuration Debug --no-build --verbosity normal
+      
+      - name: Upload Playwright HTML Report
+        uses: actions/upload-artifact@v4
+        with:
+          name: playwright-report
+          path: BrightHRUITests/playwright-report
