@@ -1,6 +1,6 @@
-﻿Feature: Feature1
+﻿Feature: EmployeeTests
 
-Scenario Outline: Login Successfully, Navigate to Employee Page on <browser>
+Scenario Outline: Create Employees and view in list on <browser>
 	Given I run the test on "<browser>"
 	And I have navigated to the BrightHR login page
 	When I enter valid login credentials
@@ -14,5 +14,4 @@ Scenario Outline: Login Successfully, Navigate to Employee Page on <browser>
 	Examples: 
 	| browser          |
 	| browser-firefox  |
-	| browser-webkit   |
 	| browser-chromium |

@@ -33,8 +33,21 @@ namespace BrightHRUITests.Models
 
         public static class TestDataGenerator
         {
-            private static readonly string[] FirstNames = { "Adam", "Simba", "Raya", "Moana", "Elsa", "Finley", "Luna", "Alicia" };
-            private static readonly string[] LastNames = { "Jacob", "Grahams", "Lamar", "Dre", "Mathers", "Davis Jr", "Nunez", "Barker", "Jackson" };
+            private static readonly string[] FirstNames = {
+                "Jasper", "Isla", "Milo", "Zara", "Theo",
+                "Amara", "Kai", "Nova", "Ezra", "Lyla",
+                "Nico", "Freya", "Orion", "Skye", "Leo",
+                "Indie", "Remy", "Ayla", "Ronan", "Mira",
+                "Elias", "Nina", "Atlas", "Talia", "Bodhi"
+            };
+
+            private static readonly string[] LastNames = {
+                "Hawkins", "Delgado", "Spencer", "Monroe", "Hayes",
+                "Whitaker", "Valencia", "Hendrix", "Chambers", "Salazar",
+                "Dalton", "Fitzgerald", "Ortega", "Langston", "Vega",
+                "Carver", "Holloway", "Bennett", "Rosario", "Cruz",
+                "Finch", "Knox", "Montoya", "Blackwell", "Pereira"
+            };
 
             private static readonly Random Random = new Random();
 

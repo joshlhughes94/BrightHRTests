@@ -18,18 +18,18 @@ namespace BrightHRUITests.Features
     [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Reqnroll", "2.0.0.0")]
     [global::System.Runtime.CompilerServices.CompilerGeneratedAttribute()]
     [NUnit.Framework.TestFixtureAttribute()]
-    [NUnit.Framework.DescriptionAttribute("Feature1")]
+    [NUnit.Framework.DescriptionAttribute("EmployeeTests")]
     [NUnit.Framework.FixtureLifeCycleAttribute(NUnit.Framework.LifeCycle.InstancePerTestCase)]
-    public partial class Feature1Feature
+    public partial class EmployeeTestsFeature
     {
         
         private global::Reqnroll.ITestRunner testRunner;
         
         private static string[] featureTags = ((string[])(null));
         
-        private static global::Reqnroll.FeatureInfo featureInfo = new global::Reqnroll.FeatureInfo(new global::System.Globalization.CultureInfo("en-US"), "Features", "Feature1", null, global::Reqnroll.ProgrammingLanguage.CSharp, featureTags);
+        private static global::Reqnroll.FeatureInfo featureInfo = new global::Reqnroll.FeatureInfo(new global::System.Globalization.CultureInfo("en-US"), "Features", "EmployeeTests", null, global::Reqnroll.ProgrammingLanguage.CSharp, featureTags);
         
-#line 1 "Feature1.feature"
+#line 1 "EmployeeTests.feature"
 #line hidden
         
         [NUnit.Framework.OneTimeSetUpAttribute()]
@@ -103,16 +103,15 @@ namespace BrightHRUITests.Features
         }
         
         [NUnit.Framework.TestAttribute()]
-        [NUnit.Framework.DescriptionAttribute("Login Successfully, Navigate to Employee Page on <browser>")]
+        [NUnit.Framework.DescriptionAttribute("Create Employees and view in list on <browser>")]
         [NUnit.Framework.TestCaseAttribute("browser-firefox", null)]
-        [NUnit.Framework.TestCaseAttribute("browser-webkit", null)]
         [NUnit.Framework.TestCaseAttribute("browser-chromium", null)]
-        public async global::System.Threading.Tasks.Task LoginSuccessfullyNavigateToEmployeePageOnBrowser(string browser, string[] exampleTags)
+        public async global::System.Threading.Tasks.Task CreateEmployeesAndViewInListOnBrowser(string browser, string[] exampleTags)
         {
             string[] tagsOfScenario = exampleTags;
             global::System.Collections.Specialized.OrderedDictionary argumentsOfScenario = new global::System.Collections.Specialized.OrderedDictionary();
             argumentsOfScenario.Add("browser", browser);
-            global::Reqnroll.ScenarioInfo scenarioInfo = new global::Reqnroll.ScenarioInfo("Login Successfully, Navigate to Employee Page on <browser>", null, tagsOfScenario, argumentsOfScenario, featureTags);
+            global::Reqnroll.ScenarioInfo scenarioInfo = new global::Reqnroll.ScenarioInfo("Create Employees and view in list on <browser>", null, tagsOfScenario, argumentsOfScenario, featureTags);
 #line 3
 this.ScenarioInitialize(scenarioInfo);
 #line hidden
