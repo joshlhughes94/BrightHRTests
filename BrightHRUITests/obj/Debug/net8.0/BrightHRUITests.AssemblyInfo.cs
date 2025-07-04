@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("BrightHRUITests")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+9a3e1aad35437c4331b2e19a7ed3f8e811706a2d")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+9643eb1636b4db7aad8e3ac21bab9f45f6661ebe")]
 [assembly: System.Reflection.AssemblyProductAttribute("BrightHRUITests")]
 [assembly: System.Reflection.AssemblyTitleAttribute("BrightHRUITests")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

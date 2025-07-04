@@ -26,7 +26,7 @@ namespace BrightHRUITests
         private async Task<IBrowser> InitializeBrowser(string browserName)
         {
             var playwright = await Playwright.CreateAsync();
-            bool isHeadless = true;
+            bool isHeadless = false;
             return browserName.ToLower() switch
             {
                 "chromium" => await playwright.Chromium.LaunchAsync(new BrowserTypeLaunchOptions { Headless = isHeadless }),
