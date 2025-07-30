@@ -19,6 +19,7 @@ jobs:
         id: inference
         uses: actions/ai-inference@v1
         with:
+          model: openai/gpt-3.5-turbo
           prompt: |
             Summarize the following GitHub issue in one paragraph:
             Title: ${{ github.event.issue.title }}
