@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "k5IYH6Qck4Q=",
+  "dgSpecHash": "0ta9YwDxlFQ=",
   "success": true,
-  "projectFilePath": "C:\\Users\\joshl\\source\\repos\\BrightHRUITests\\BrightHRUITests\\BrightHRUITests.csproj",
+  "projectFilePath": "C:\\Users\\joshl\\source\\repos\\BrightHRUITests\\BrightHRUITests\\TestSiteUITests.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\joshl\\.nuget\\packages\\autofac\\8.3.0\\autofac.8.3.0.nupkg.sha512",
     "C:\\Users\\joshl\\.nuget\\packages\\autofac.extensions.dependencyinjection\\10.0.0\\autofac.extensions.dependencyinjection.10.0.0.nupkg.sha512",
