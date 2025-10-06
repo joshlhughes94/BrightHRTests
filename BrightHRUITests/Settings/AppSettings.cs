@@ -4,11 +4,11 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace BrightHRUITests.Settings
+namespace TestSiteUITests.Settings
 {
     public class AppSettings
     {
-        public string BrightHRTestURL { get; set; } = null;
+        public string TestSiteTestURL { get; set; } = null;
         public string ValidUsername { get; set; } = null;
         public string ValidPassword { get; set; } = null;
     }

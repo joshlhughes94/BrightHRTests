@@ -126,7 +126,7 @@ this.ScenarioInitialize(scenarioInfo);
  await testRunner.GivenAsync(string.Format("I run the test on \"{0}\"", browser), ((string)(null)), ((global::Reqnroll.Table)(null)), "Given ");
 #line hidden
 #line 5
- await testRunner.AndAsync("I have navigated to the BrightHR login page", ((string)(null)), ((global::Reqnroll.Table)(null)), "And ");
+ await testRunner.AndAsync("I have navigated to the TestSite login page", ((string)(null)), ((global::Reqnroll.Table)(null)), "And ");
 #line hidden
 #line 6
  await testRunner.WhenAsync("I enter valid login credentials", ((string)(null)), ((global::Reqnroll.Table)(null)), "When ");
