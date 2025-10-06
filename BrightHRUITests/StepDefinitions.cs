@@ -26,7 +26,7 @@ namespace TestSiteUITests
         private async Task<IBrowser> InitializeBrowser(string browserName)
         {
             var playwright = await Playwright.CreateAsync();
-            bool isHeadless = true;
+            bool isHeadless = false;
             return browserName.ToLower() switch
             {
                 "chromium" => await playwright.Chromium.LaunchAsync(new BrowserTypeLaunchOptions { Headless = isHeadless }),
@@ -51,8 +51,6 @@ namespace TestSiteUITests
             var loginPage = _pageService.LoginPage;
             await loginPage.GoToLoginPage();
         }
-        
-        
 
         [When("I enter valid login credentials")]
         public async Task WhenIEnterValidLoginCredentials()
