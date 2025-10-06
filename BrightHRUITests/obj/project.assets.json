@@ -3490,9 +3490,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\joshl\\source\\repos\\BrightHRUITests\\BrightHRUITests\\BrightHRUITests.csproj",
-      "projectName": "BrightHRUITests",
-      "projectPath": "C:\\Users\\joshl\\source\\repos\\BrightHRUITests\\BrightHRUITests\\BrightHRUITests.csproj",
+      "projectUniqueName": "C:\\Users\\joshl\\source\\repos\\BrightHRUITests\\BrightHRUITests\\TestSiteUITests.csproj",
+      "projectName": "TestSiteUITests",
+      "projectPath": "C:\\Users\\joshl\\source\\repos\\BrightHRUITests\\BrightHRUITests\\TestSiteUITests.csproj",
       "packagesPath": "C:\\Users\\joshl\\.nuget\\packages\\",
       "outputPath": "C:\\Users\\joshl\\source\\repos\\BrightHRUITests\\BrightHRUITests\\obj\\",
       "projectStyle": "PackageReference",
