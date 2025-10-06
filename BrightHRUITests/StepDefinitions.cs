@@ -3,11 +3,11 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using BrightHRUITests.Services;
+using TestSiteUITests.Services;
 using Microsoft.Playwright;
 using Reqnroll;
 
-namespace BrightHRUITests
+namespace TestSiteUITests
 {
     [Binding]
     public class StepDefinitions
@@ -44,16 +44,17 @@ namespace BrightHRUITests
             _page = await _browser.NewPageAsync();
             _pageDependencyService.SetPage(_page);
         }
-
-        [Given("I have navigated to the BrightHR login page")]
-        public async Task GivenIHaveNavigatedToTheBrightHRLoginPage()
+        
+        [Given("I have navigated to the TestSite login page")]
+        public async Task GivenIHaveNavigatedToTheTestSiteLoginPage()
         {
             var loginPage = _pageService.LoginPage;
             await loginPage.GoToLoginPage();
         }
-        [
         
-        When("I enter valid login credentials")]
+        
+
+        [When("I enter valid login credentials")]
         public async Task WhenIEnterValidLoginCredentials()
         {
             var username = _pageDependencyService.AppSettings.Value.ValidUsername;

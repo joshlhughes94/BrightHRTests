@@ -2,7 +2,7 @@
 
 Scenario Outline: Create Employees and view in list on <browser>
 	Given I run the test on "<browser>"
-	And I have navigated to the BrightHR login page
+	And I have navigated to the TestSite login page
 	When I enter valid login credentials
 	And I have selected Employees from the menu
 	And I have selected the Add Employee Button

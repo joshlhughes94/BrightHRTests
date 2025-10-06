@@ -4,15 +4,15 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using Autofac;
-using BrightHRUITests.Models;
-using BrightHRUITests.Services;
-using BrightHRUITests.Settings;
+using TestSiteUITests.Models;
+using TestSiteUITests.Services;
+using TestSiteUITests.Settings;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.Options;
 using Microsoft.Playwright;
 using Reqnroll.Autofac;
 
-namespace BrightHRUITests
+namespace TestSiteUITests
 {
     public static class TestStartUp
     {

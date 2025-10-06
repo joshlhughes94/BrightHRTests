@@ -3,10 +3,10 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using BrightHRUITests.Services;
+using TestSiteUITests.Services;
 using Microsoft.Playwright;
 
-namespace BrightHRUITests.Models
+namespace TestSiteUITests.Models
 {
     public class LoginPage
     {
@@ -21,7 +21,7 @@ namespace BrightHRUITests.Models
 
         public async Task GoToLoginPage()
         {
-            await _pageDependencyService.Page.Result.GotoAsync(_pageDependencyService.AppSettings.Value.BrightHRTestURL);
+            await _pageDependencyService.Page.Result.GotoAsync(_pageDependencyService.AppSettings.Value.TestSiteTestURL);
         }
 
         public async Task LoginSuccessfully(string username, string password)

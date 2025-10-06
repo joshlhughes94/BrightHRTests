@@ -3,9 +3,9 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using BrightHRUITests.Models;
+using TestSiteUITests.Models;
 
-namespace BrightHRUITests.Services
+namespace TestSiteUITests.Services
 {
         public interface IPageService
         {

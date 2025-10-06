@@ -3,12 +3,12 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using BrightHRUITests.Settings;
+using TestSiteUITests.Settings;
 using Microsoft.Extensions.Options;
 using Microsoft.Playwright;
 using Reqnroll;
 
-namespace BrightHRUITests.Services
+namespace TestSiteUITests.Services
 {
     public interface IPageDependencyService
     {
