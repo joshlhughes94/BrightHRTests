@@ -1,4 +1,4 @@
-﻿Feature: EmployeeTests
+﻿Feature: TEST
 
 Scenario Outline: (TEST) on <browser>
 	Given I run the test on "<browser>"
